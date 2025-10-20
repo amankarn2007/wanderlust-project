@@ -21,7 +21,7 @@ router
 
 
 //New Route
-router.get("/new", isLoggedIn, listingController.renderNewFrom,);
+router.get("/new", isLoggedIn, listingController.renderNewFrom);
 
 
 //Show Route and Update Route and Delete Route

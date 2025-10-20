@@ -9,7 +9,7 @@ const userSchema = new Schema({
         required: true,
         unique: true
     }
-    // password schema mongoose khud se bana deta hai
+    // password schema ,mongoose khud se bana deta hai
 });
 
 userSchema.plugin(passportLocalMongoose);

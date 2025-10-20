@@ -11,7 +11,8 @@ router
     .get(userController.renderSignupForm)
     .post(userController.signup)
 
-// user login route and user login
+    
+// user login route
 router
     .route("/login")
     .get(userController.renderLoginForm)

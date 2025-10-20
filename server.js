@@ -39,10 +39,6 @@ app.get("/hello",(req,res) => {
     res.render("page.ejs",{name: req.session.name});
 })
 
-//app.get("/test",(req,res) =>{
-//    res.send("test successful");
-//})
-
 app.get("/reqCount",(req,res) => {
     if(req.session.count){
         req.session.count++;
